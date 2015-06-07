@@ -63,7 +63,7 @@ echo "#########################################################################"
 echo $'\n\n'
 echo "Installing MYSQL now....."
 sleep 2s 
-#sudo apt-get install mysql-server mysql-client
+sudo apt-get install mysql-server mysql-client
 sleep 0.5s 
 echo "Installation of MYSQL complete!!!"
 sleep 0.3s
@@ -82,12 +82,14 @@ echo "###      ${red} Version : $version ${reset}                               
 echo "#########################################################################"
 echo "#########################################################################"
 
-
+echo $'\n\n'
+echo "Installing pip now...."
+sudo apt-get install python-pip
 
 echo $'\n\n'
 echo "Installing DJANGO now...."
 sleep 2s 
-#sudo pip install Django
+sudo pip install Django
 sleep 0.5s 
 echo "Installation of DJANGO complete!!!"
 sleep 0.3s
