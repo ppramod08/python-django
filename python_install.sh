@@ -94,9 +94,3 @@ sleep 0.3s
 echo "${green} DJANGO Version is : ${reset}"
 django-admin --version
 ######################   DJANGO IS INSTALLED SUCCESSFULLY ######################
-
-
-
-
-
-
