@@ -18,3 +18,10 @@ def substraction(number_1,number_2):
     """
     return number_1-number_2
 print substraction(number_1,number_2)
+def mul(number_1,number_2):
+    """
+    This is multiplication function
+    """
+    return number_1*number_2
+print mul(number_1,number_2)
+
