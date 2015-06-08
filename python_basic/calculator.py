@@ -10,3 +10,11 @@ def addition(number_1, number_2):
     return number_1+number_2
 
 print addition(number_1,number_2)
+
+
+def substraction(number_1,number_2):
+    """
+    Returns substration of two numbers
+    """
+    return number_1-number_2
+print substraction(number_1,number_2)
