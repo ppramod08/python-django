@@ -1,4 +1,5 @@
 #usr/
+
 number_1 = int(raw_input("Enter first number : "))
 number_2 = int(raw_input("Ennter second number : "))
 
@@ -31,5 +32,11 @@ def division(number_1,number_2):
     This is divion function
     """
     return number_1/number_2
+def getpower(number_1,number_2):
+	"""
+	Power calculation
+	"""
+	return number_1**number_2
 
-print divion(number_1,number_2)
+print division(number_1,number_2)
+print getpower(number_1,number_2)
